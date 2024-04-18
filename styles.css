@@ -1,0 +1,14 @@
+body input.form-control, body textarea.form-control, body select.form-control, body {
+    background-color: #23252f !important;
+    color: #ffffff !important;
+}
+
+
+
+h1,h2,h3,h4, p, label{
+  color:#fff !important;
+}
+
+#dobError{
+  font-size:24px;
+}
