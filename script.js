@@ -62,6 +62,9 @@ const submitForm = function () {
     const dobError = document.getElementById("dobError");
     dobError.textContent =
       "The entered age does not match with the Date of Birth (DOB). Enter appropriate age for DOB";
+
+    // The scrollIntoView is an inbuilt JS method that allows us to scroll an element into view. 
+    // This scroll behaviour has been set to smooth
     dobError.scrollIntoView({ behavior: "smooth" });
     return;
   } else {
