@@ -61,7 +61,7 @@ const submitForm = function () {
   if (!validateAge(dob, age)) {
     const dobError = document.getElementById("dobError");
     dobError.textContent =
-      "The entered age does not match with the calculated age from the Date of Birth.";
+      "The entered age does not match with the Date of Birth (DOB). Enter appropriate age for DOB";
     dobError.scrollIntoView({ behavior: "smooth" });
     return;
   } else {
